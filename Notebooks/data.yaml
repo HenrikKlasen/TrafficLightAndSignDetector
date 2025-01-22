@@ -1,0 +1,9 @@
+test: New_DS/test
+train: New_DS/train
+val: New_DS/val
+
+nc: 22
+names: [STOP, Yield, One-way traffic, Pedestrian crossing, No entry, Speed limit 100 km/h, Speed limit 120 km/h, Speed limit 20 km/h, Speed limit 30 km/h, Speed limit 40 km/h, Speed limit 50 km/h, Speed limit 60 km/h, Roadworks, Speed limit 80 km/h, Dead end, End of priority road, End of construction works, End of play street, Play street, Road closure, Red traffic light, Green traffic light]
+cls_weights: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1, 1, 1, 1, 1, 1, 1, 0.1, 10000000]
+
+

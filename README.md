@@ -20,3 +20,11 @@ Next to these, it can recognize green and red traffic lights.
 ## Specs
 These models were run on a RTX3060 mobile GPU with 6GB of VRAM. If you want to retrain the model, please use the DriveU Traffic Light Dataset, BelgianTS dataset (camera00 and camera01), as well as the traffic signs and traffic lights dataset by sonia, available on roboflow.
 The medium model (`best_m.pt`) was trained on 448px $\times$ 448px, while the best small model (`best_s.pt`) was trained on 640px $\times$ 640px.
+
+## Usage
+
+1. Download camera00 and camera01 of the BelgianTS dataset and the city "Bochum" of DTLD.
+2. Run `filter_and_modify.ipynb` from the `Notebooks` folder.
+3. Download the "Traffic Signs and Traffic Lights" dataset of Sonia from roboflow
+4. Run the join_ds.py script
+5. Train the desired model using the `Train_and_eval_model.ipynb`.
