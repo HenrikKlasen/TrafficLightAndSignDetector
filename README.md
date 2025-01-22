@@ -2,7 +2,7 @@
 This project was part of the curriculum of the Bachelor in Computer Science program at the University of Luxembourg. It was about a combined traffic light and sign detection using a joined dataset of traffic signs and traffic lights.
 
 ## Motivation
-The current Traffic light detector of RoboCar only recognizes traffic lights. For Traffic signs it uses an HD map, which provides the correct information _most of the time_. 
+The current Traffic light detector of [RoboCar](https://github.com/sntubix/robocar) only recognizes traffic lights. For Traffic signs it uses an HD map, which provides the correct information _most of the time_. 
 
 ## Results and Features
 For the times it does not provide the right information, this system is made to identify the most important traffic signs:
